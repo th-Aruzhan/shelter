@@ -1,0 +1,115 @@
+.our-friends {
+  background: #F6F6F6;
+}
+  
+.our-friends__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  align-items: center;
+}
+.our-friends__container .our-friends_icon-arrow {
+  cursor: pointer;
+  display: inline-flex;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  padding: 19px;
+  height: 20px;
+  width: 15px;
+  text-align: start;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  margin: 20px;
+}
+.our-friends__container .our-friends_icon-arrow:hover {
+  background: #FDDCC4;
+  border-color: #FDDCC4;
+}
+.our-friends__container .arrow-left {
+  position: absolute;
+  top: 194px;
+  left: 0;
+}
+.our-friends__container .arrow-right {
+  position: absolute;
+  top: 194px;
+  right: 0;
+}
+  
+.our-friends__wrapper {
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 110px;
+}
+.our-friends__wrapper h2 {
+  margin: 0 auto;
+  font-family: Georgia, sans-serif;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  max-width: 400px;
+  color: #545454;
+  margin-bottom: 60px;
+}
+.our-friends__wrapper a {
+  cursor: pointer;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: none;
+  padding: 15px 45px;
+  font-family: Georgia, sans-serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #4C4C4C;
+  transition: 0.4s;
+}
+.our-friends__wrapper a:hover {
+  background: #FDDCC4;
+}
+  
+.our-friends__pets {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-bottom: 78px;
+}
+.our-friends__pets .our-friends__pets__item {
+  cursor: pointer;
+}
+.our-friends__pets div {
+  background: #FAFAFA;
+  transition: 0.4s ease-in-out;
+}
+.our-friends__pets div:hover {
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.our-friends__pets div p {
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+.our-friends__pets button {
+  cursor: pointer;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background: #FAFAFA;
+  font-family: Georgia, sans-serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 14px 45px;
+  margin-bottom: 25px;
+  transition: 0.5s ease-in-out;
+}
+.our-friends__pets button:hover {
+  background: #FDDCC4;
+  border-color: #FDDCC4;
+}
+  

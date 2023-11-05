@@ -1,0 +1,262 @@
+.about{
+    background: #e6e6e6;
+    height: 100vh;
+    width: 100%;
+    color: #c8b4b4;
+    margin: 0 auto;
+}
+
+.left{
+    padding-left: 150px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.right__box  {
+    padding-left: 550px;
+    margin-top: -33%;
+    color: rgba(59, 57, 57, 0.888);
+    font-family: Georgia;
+    width: 250px;
+    font-size: large;
+}
+
+.right__box__2 p {
+    padding-left: 500px;
+    width: 500px;
+    color: rgb(137, 132, 132);
+    font-family: arial;
+    font-size: medium;
+}
+
+/*вторая страница*/
+#pets{
+    background-color:  #b58c8c;
+    height: 140vh;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.pets_content{
+    color:#484848;
+    padding-top: 45px;
+    padding-left: 400px;
+    font-size: 20px;
+    width: 300px;
+    font-family: Georgia;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+p{
+    padding-top: 30px;
+    color: #292929;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*тьретья страница*/
+
+.help_for-friends{
+    background-color:  #ffffff;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+    top: 80px;
+    left: 40px;
+    padding: 0px, 87px, 0px, 87px;
+    
+
+    
+}
+.help_content-heading{
+  display: flex;
+  justify-content: center;
+  color: #282828;
+  font-size: 35px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 45.5px;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+
+
+}
+
+.pets-helps-content-container {
+    display: flex;
+    gap: 120px 160px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.pets__help__list__text{
+  justify-content: space-evenly;
+  
+    
+}
+
+
+
+.donation__content_heading{
+    display: flex;
+    justify-content: right;
+    padding-left: 100px;
+    margin: 0 auto;
+    padding-top:100px;
+    
+    
+}
+.donation-dog-heading{
+    display: flex;
+    padding-right: 50px;
+    background-color: #ffffff;
+    flex-direction: column;
+    font-size: 40px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.subheading-dog{
+    font-size: 18px;
+}
+
+.credit-card-number{
+    padding-left: 1%;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color:#ffd5d5;
+    padding-top: 8px;
+}
+
+.credit-card-content{
+    padding-top: 15px;
+}
+
+.credit-card-text{
+    text-align: left;
+    width: 500px;
+}
+
+.credit-card-text-about{
+    color: #5e5e5e;
+    font-family: arial;
+    font-size: 18px;
+}
+
+
+
+footer{
+    padding-top: 10%;
+    width: 100%;
+    color: #636363;
+    margin: 0 auto;
+    
+  
+}
+
+.footer-content{
+    color: #000000;
+    margin: 0 auto;
+    background: #312b2a;
+    
+}
+
+
+.footer-content-contacts{
+    display: flex;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+
+.content-contacts-title{
+    color: white;
+}
+
+.mail-contact{
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.mail-icon-text{
+   color:  rgba(241, 205, 179, 1);
+}
+
+.phone-contact{
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.mail-phone-text{
+    color:  rgba(241, 205, 179, 1);
+}
+
+
+.footer-location-contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-location-bosten{
+    margin-top: -15%;
+}
+
+.bosten-contact{
+    font-size: 36px;
+    color: white;
+}
+
+.boston{
+    margin-top: -10%;
+    font-size: 13px;
+}
+
+.boston-text-2{
+    font-size: 17px;
+    color:  rgba(241, 205, 179, 1);
+}
+
+.london{
+    margin-top: -10%;
+}
+.london-text-2{
+    color:  rgba(241, 205, 179, 1);
+}
+
+.puppy-image{
+    display: flex;
+    justify-content: right;
+    margin-top: -18%;
+    padding-right: 40px;
+}
+
+.mail-icon {
+    padding-right: 0px;
+}
+
+

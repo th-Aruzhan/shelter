@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;   
+}
+
+body{
+ background-color: rgb(255, 255, 255);
+ margin: 0;
+}
+
+header{
+    
+    background-color: rgb(255, 255, 255); 
+}
+
+.header_1{
+    color: #685e5e;;   
+}
+.header__1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.logo__title {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding-left: 100px;
+    top: 36px;
+    text-align: center;
+    width: 1020px;
+    position: absolute;
+    font-family: Arial;
+}
+
+nav a{
+    color: #393838;
+    font-family: Arial;
+}
+
+
+nav li{
+    display: flex;
+    height: inherit;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+    
+}
+
+.our-friends {
+    background: #f1f1f1;
+  }
+    
+  .our-friends__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    align-items: center;
+  }
+  .our-friends__container .our-friends_icon-arrow {
+    cursor: pointer;
+    display: inline-flex;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    padding: 19px;
+    height: 20px;
+    width: 15px;
+    text-align: start;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    margin: 20px;
+  }
+  .our-friends__container .our-friends_icon-arrow:hover {
+    background: #FDDCC4;
+    border-color: #FDDCC4;
+  }
+    
+  .our-friends__wrapper {
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 99px;
+  }
+  .our-friends__wrapper h2 {
+    margin: 0 auto;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    max-width: 400px;
+    color: #545454;
+    margin-bottom: 60px;
+  }
+  .our-friends__wrapper a {
+    cursor: pointer;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    padding: 15px 45px;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #4C4C4C;
+    transition: 0.4s;
+  }
+  .our-friends__wrapper a:hover {
+    background: #FDDCC4;
+  }
+    
+  .our-friends__pets {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 78px;
+    flex-flow: row wrap
+  }
+  .our-friends__pets .our-friends__pets__item {
+    cursor: pointer;
+  }
+  .our-friends__pets div {
+    background: #FAFAFA;
+    transition: 0.4s ease-in-out;
+  }
+  .our-friends__pets div:hover {
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .our-friends__pets div p {
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 25px;
+    margin-bottom: 32px;
+  }
+  .our-friends__pets button {
+    cursor: pointer;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: #FAFAFA;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    padding: 14px 45px;
+    margin-bottom: 25px;
+    transition: 0.5s ease-in-out;
+  }
+  .our-friends__pets button:hover {
+    background: #FDDCC4;
+    border-color: #FDDCC4;
+  }
+
+
+.our-friends__wrapper__number button{
+    border: 2px solid #FDDCC4;
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 15px 20px ;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #4C4C4C;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: #636363;
+    margin: 0 auto;
+    
+  
+}
+
+.footer-content{
+    color: #000000;
+    margin: 0 auto;
+    background: #312b2a;
+    
+}
+
+
+.footer-content-contacts{
+    display: flex;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+
+.content-contacts-title{
+    color: white;
+}
+
+.mail-contact{
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.mail-icon-text{
+   color:  rgba(241, 205, 179, 1);
+}
+
+.phone-contact{
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.mail-phone-text{
+    color:  rgba(241, 205, 179, 1);
+}
+
+
+.footer-location-contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-location-bosten{
+    margin-top: -18%;
+}
+
+.bosten-contact{
+    font-size: 36px;
+    color: white;
+}
+
+
+
+.boston-text-2{
+    font-size: 23px;
+    color:  rgba(241, 205, 179, 1);
+}
+
+.london{
+    margin-top: -10%;
+    
+}
+.london-text-2{
+    color:  rgba(241, 205, 179, 1);
+
+}
+
+.puppy-image{
+    display: flex;
+    justify-content: right;
+    margin-top: -18%;
+    padding-right: 40px;
+}
+
+.mail-icon {
+    padding-right: 0px;
+}
+
+
